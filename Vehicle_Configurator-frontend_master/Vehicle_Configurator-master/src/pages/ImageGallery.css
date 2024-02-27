@@ -1,0 +1,27 @@
+.image-gallery-container {
+  margin-top: 20px;
+}
+
+.image-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 2%;
+  margin-right: 2%;
+  /* Allow items to wrap to the next row */
+}
+
+.gallery-image {
+  width: calc(33.33% - 10px);
+  /* Set width for each image (33.33% of container width minus margin) */
+  height: auto;
+  margin-bottom: 20px;
+  /* Add margin between images */
+  transition: transform 0.3s ease;
+  /* Add transition for smooth animation */
+}
+
+.gallery-image:hover {
+  transform: scale(1.1);
+  /* Increase scale to enlarge the image on hover */
+}
