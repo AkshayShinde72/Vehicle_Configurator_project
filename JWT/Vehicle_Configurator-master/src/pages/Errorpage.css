@@ -1,0 +1,37 @@
+.errorpage-container {
+  height: 100vh;
+  background-image: url("/public/images/errorimage.webp");
+  /* Adjust the path based on your project structure */
+  background-size: cover;
+  background-position: center;
+  color: rgb(251, 245, 245);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-section h1 {
+  background-color: rgba(255, 255, 255, 0.7);
+  /* White with 70% transparency */
+  color: black;
+  /* Set text color to black */
+  font-weight: bold;
+  /* Set font weight to bold */
+  padding: 10px;
+  /* Add padding for better visibility */
+}
+
+.registration-button {
+  color: rgb(11, 10, 10);
+  /* Set text color to white */
+  background-color: rgb(112, 202, 27);
+  /* Set background color to black */
+  border: 1px solid rgb(49, 32, 32);
+  /* Add white border for better visibility */
+  padding: 10px 20px;
+  /* Add padding for the button */
+  font-weight: bold;
+  /* Set font weight to bold */
+  cursor: pointer;
+}

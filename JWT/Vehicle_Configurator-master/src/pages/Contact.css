@@ -1,0 +1,14 @@
+.custom-image {
+  width: 350px; /* Adjusted width */
+  height: auto; /* Automatically adjust height to maintain aspect ratio */
+}
+
+.custom-label {
+  font-weight: bold; /* Make label text bold */
+  margin-right: 1000px; /* Adjust margin to the right */
+}
+
+.custom-input,
+.custom-textarea {
+  border-radius: 5px; /* Add some border radius to input and textarea */
+}
